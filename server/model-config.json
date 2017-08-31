@@ -10,29 +10,75 @@
       "loopback/common/mixins",
       "loopback/server/mixins",
       "../common/mixins",
-      "./mixins"
+      "./mixins",
+      "../node_modules/@mean-expert/loopback-component-realtime/dist/mixins"
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mydb",
+    "public": true
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mydb",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mydb",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mydb",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mydb",
     "public": false
+  },
+  "AjiPosting": {
+    "dataSource": "mydb",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "AjiAccorder": {
+    "dataSource": "mydb",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "AjiOrder": {
+    "dataSource": "mydb",
+    "public": true
+  },
+  "container": {
+    "dataSource": "container",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "AjiOrderProses": {
+    "dataSource": "mydb",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "AjiChat": {
+    "dataSource": "mydb",
+    "public": true
+  },
+  "AjiChatheader": {
+    "dataSource": "mydb",
+    "public": true
+  },
+  "AjiTopup": {
+    "dataSource": "mydb",
+    "public": true
+  },
+  "AjiUserAuth": {
+    "dataSource": "mydb",
+    "public": true
   }
 }
