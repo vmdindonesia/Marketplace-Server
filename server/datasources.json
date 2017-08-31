@@ -2,5 +2,21 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mydb": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "aji-app",
+    "password": "",
+    "name": "mydb",
+    "user": "root",
+    "connector": "mysql"
+  },
+  "container": {
+    "name": "container",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./server"
   }
 }
