@@ -4,13 +4,13 @@
     "connector": "memory"
   },
   "mydb": {
-    "host": "localhost",
+    "host": "103.16.199.130",
     "port": 3306,
     "url": "",
-    "database": "aji-app",
-    "password": "",
+    "database": "serverpr_marketplace",
+    "password": "5ervpr1m4",
     "name": "mydb",
-    "user": "root",
+    "user": "serverprima",
     "connector": "mysql"
   },
   "container": {
